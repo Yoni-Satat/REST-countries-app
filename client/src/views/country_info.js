@@ -3,7 +3,8 @@ const CountryInfo = function () {
 }
 
 CountryInfo.prototype.render = function (country) {
-  // TODO: Render country info
+  console.log(country);
+  
 }
 
 CountryInfo.prototype.createListItem = function (label, content) {
